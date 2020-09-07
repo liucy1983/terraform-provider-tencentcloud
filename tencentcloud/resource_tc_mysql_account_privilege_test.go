@@ -9,8 +9,8 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
-	cdb "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cdb/v20170320"
-	sdkError "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/errors"
+	cdb "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/cdb/v20170320"
+	sdkError "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/common/errors"
 )
 
 func TestAccTencentCloudMysqlAccountPrivilege(t *testing.T) {

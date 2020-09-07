@@ -19,7 +19,7 @@ import (
 	"strconv"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	redis "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/redis/v20180412"
+	redis "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/redis/v20180412"
 )
 
 func dataSourceTencentRedisZoneConfig() *schema.Resource {

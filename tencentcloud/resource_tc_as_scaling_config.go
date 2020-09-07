@@ -48,7 +48,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	as "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/as/v20180419"
+	as "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/as/v20180419"
 	"github.com/terraform-providers/terraform-provider-tencentcloud/tencentcloud/internal/helper"
 )
 

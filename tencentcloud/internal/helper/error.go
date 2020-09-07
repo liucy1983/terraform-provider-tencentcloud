@@ -6,7 +6,7 @@ import (
 	"runtime"
 	"strings"
 
-	sdkErrors "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/errors"
+	sdkErrors "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/common/errors"
 )
 
 type frame struct {

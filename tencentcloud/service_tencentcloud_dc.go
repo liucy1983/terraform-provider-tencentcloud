@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	dc "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/dc/v20180410"
+	dc "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/dc/v20180410"
 	"github.com/terraform-providers/terraform-provider-tencentcloud/tencentcloud/connectivity"
 	"github.com/terraform-providers/terraform-provider-tencentcloud/tencentcloud/ratelimit"
 )

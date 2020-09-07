@@ -15,9 +15,9 @@ import (
 	"time"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
-	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common"
-	sdkErrors "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/errors"
-	vpc "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/vpc/v20170312"
+	"github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/common"
+	sdkErrors "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/common/errors"
+	vpc "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/vpc/v20170312"
 	"github.com/terraform-providers/terraform-provider-tencentcloud/tencentcloud/connectivity"
 	"github.com/terraform-providers/terraform-provider-tencentcloud/tencentcloud/internal/helper"
 	"github.com/terraform-providers/terraform-provider-tencentcloud/tencentcloud/ratelimit"
@@ -157,7 +157,12 @@ func (me *VpcService) CreateVpc(ctx context.Context, name, cidr string,
 		errRet = err
 		return
 	}
-	vpcId, isDefault = *response.Response.Vpc.VpcId, *response.Response.Vpc.IsDefault
+	if response.Response.Vpc.IsDefault == nil {
+		isDefault = false
+	} else {
+		isDefault = *response.Response.Vpc.IsDefault
+	}
+	vpcId = *response.Response.Vpc.VpcId
 	return
 }
 

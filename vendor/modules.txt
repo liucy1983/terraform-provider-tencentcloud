@@ -439,6 +439,35 @@ github.com/kisielk/gotool
 github.com/kisielk/gotool/internal/load
 # github.com/konsorten/go-windows-terminal-sequences v1.0.1
 github.com/konsorten/go-windows-terminal-sequences
+# github.com/liucy1983/tencentcloud-sdk-go v1.0.5
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/as/v20180419
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/cam/v20190116
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/cbs/v20170312
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/cdb/v20170320
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/cdn/v20180606
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/cfs/v20190719
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/ckafka/v20190819
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/clb/v20180317
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/common
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/common/errors
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/common/profile
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/cvm/v20170312
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/dayu/v20180709
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/dc/v20180410
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/es/v20180416
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/gaap/v20180529
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/mongodb/v20190725
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/monitor/v20180724
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/postgres/v20170312
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/redis/v20180412
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/scf/v20180416
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/sqlserver/v20180328
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/sts/v20180813
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/tag/v20180813
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/tcaplusdb/v20190823
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/tke/v20180525
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/vpc/v20170312
+github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/wss/v20180426
 # github.com/magiconair/properties v1.8.1
 github.com/magiconair/properties
 # github.com/maratori/testpackage v1.0.1
@@ -524,35 +553,10 @@ github.com/subosito/gotenv
 # github.com/tdakkota/asciicheck v0.0.0-20200416190851-d7f85be797a2
 github.com/tdakkota/asciicheck
 # github.com/tencentcloud/tencentcloud-sdk-go v3.0.229+incompatible
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/as/v20180419
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cam/v20190116
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cbs/v20170312
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cdb/v20170320
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cdn/v20180606
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cfs/v20190719
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/ckafka/v20190819
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/clb/v20180317
 github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common
 github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/errors
 github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/http
 github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/profile
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cvm/v20170312
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/dayu/v20180709
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/dc/v20180410
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/es/v20180416
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/gaap/v20180529
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/mongodb/v20190725
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/monitor/v20180724
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/postgres/v20170312
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/redis/v20180412
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/scf/v20180416
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/sqlserver/v20180328
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/sts/v20180813
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/tag/v20180813
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/tcaplusdb/v20190823
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/tke/v20180525
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/vpc/v20170312
-github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/wss/v20180426
 # github.com/tetafro/godot v0.3.7
 github.com/tetafro/godot
 # github.com/timakin/bodyclose v0.0.0-20190930140734-f7f2e9bca95e

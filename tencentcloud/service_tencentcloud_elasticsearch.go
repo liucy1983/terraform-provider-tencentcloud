@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	es "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/es/v20180416"
+	es "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/es/v20180416"
 	"github.com/terraform-providers/terraform-provider-tencentcloud/tencentcloud/connectivity"
 	"github.com/terraform-providers/terraform-provider-tencentcloud/tencentcloud/internal/helper"
 	"github.com/terraform-providers/terraform-provider-tencentcloud/tencentcloud/ratelimit"

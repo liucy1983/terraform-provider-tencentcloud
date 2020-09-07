@@ -29,8 +29,8 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	cam "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cam/v20190116"
-	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/errors"
+	cam "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/cam/v20190116"
+	"github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/common/errors"
 )
 
 func resourceTencentCloudCamGroupMembership() *schema.Resource {

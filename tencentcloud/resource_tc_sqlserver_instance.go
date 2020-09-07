@@ -32,7 +32,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	sqlserver "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/sqlserver/v20180328"
+	sqlserver "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/sqlserver/v20180328"
 )
 
 func TencentSqlServerBasicInfo() map[string]*schema.Schema {

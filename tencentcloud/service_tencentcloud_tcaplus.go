@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	sdkError "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/errors"
-	tcaplusdb "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/tcaplusdb/v20190823"
+	sdkError "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/common/errors"
+	tcaplusdb "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/tcaplusdb/v20190823"
 	"github.com/terraform-providers/terraform-provider-tencentcloud/tencentcloud/connectivity"
 	"github.com/terraform-providers/terraform-provider-tencentcloud/tencentcloud/internal/helper"
 	"github.com/terraform-providers/terraform-provider-tencentcloud/tencentcloud/ratelimit"

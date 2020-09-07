@@ -7,7 +7,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
-	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/errors"
+	"github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/common/errors"
 )
 
 const TestAccTencentCloudMysqlMasterInstance_availability_zone = "ap-guangzhou-3"

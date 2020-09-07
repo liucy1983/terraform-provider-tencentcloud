@@ -21,7 +21,7 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	monitor "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/monitor/v20180724"
+	monitor "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/monitor/v20180724"
 )
 
 func dataSourceTencentMonitorBindingObjects() *schema.Resource {

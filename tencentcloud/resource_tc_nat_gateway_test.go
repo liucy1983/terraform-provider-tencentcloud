@@ -7,7 +7,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
-	vpc "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/vpc/v20170312"
+	vpc "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/vpc/v20170312"
 )
 
 func TestAccTencentCloudNatGateway_basic(t *testing.T) {

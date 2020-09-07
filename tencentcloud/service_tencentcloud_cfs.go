@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	cfs "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/cfs/v20190719"
-	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/errors"
+	cfs "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/cfs/v20190719"
+	"github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/common/errors"
 	"github.com/terraform-providers/terraform-provider-tencentcloud/tencentcloud/connectivity"
 	"github.com/terraform-providers/terraform-provider-tencentcloud/tencentcloud/ratelimit"
 )

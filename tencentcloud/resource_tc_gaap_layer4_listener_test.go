@@ -8,7 +8,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
-	sdkErrors "github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common/errors"
+	sdkErrors "github.com/liucy1983/tencentcloud-sdk-go/tencentcloud/common/errors"
 )
 
 func TestAccTencentCloudGaapLayer4Listener_basic(t *testing.T) {
