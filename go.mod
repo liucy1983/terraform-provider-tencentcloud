@@ -14,6 +14,6 @@ require (
 	github.com/liucy1983/tencentcloud-sdk-go v1.0.5
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/pkg/errors v0.9.1
-	github.com/terraform-providers/terraform-provider-tencentcloud v1.42.0
+	github.com/liucy1983/terraform-provider-tencentcloud v1.42.1
 	github.com/yangwenmai/ratelimit v0.0.0-20180104140304-44221c2292e1
 )
